@@ -16,13 +16,13 @@ import java.time.temporal.ChronoUnit;
  */
 public class DateUtilites {
 
-    public final String dateToStringasyyyyMMdd(LocalDate localDate) {
+    public final String dateToStringAsyyyyMMdd(LocalDate localDate) {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy MM dd");
         return localDate.format(formatter);
 
     }
 
-    public final String dateToStringasddMMyyyy(LocalDate localDate) {
+    public final String dateToStringAsddMMyyyy(LocalDate localDate) {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
         return localDate.format(formatter);
 
