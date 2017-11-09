@@ -35,7 +35,7 @@ public class DateUtilitesTest {
      * Test of dateToStringasyyyyMMdd method, of class DateUtilites.
      */
     @Test
-    public void testDateToStringasyyyyMMdd() {
+    public void testDateToStringAsyyyyMMdd() {
         System.out.println("dateToStringasyyyyMMdd");
         LocalDate localDate = null;
         DateUtilites instance = new DateUtilites();
@@ -50,7 +50,7 @@ public class DateUtilitesTest {
      * Test of dateToStringasddMMyyyy method, of class DateUtilites.
      */
     @Test
-    public void testDateToStringasddMMyyyy() {
+    public void testDateToStringAsddMMyyyy() {
         System.out.println("dateToStringasddMMyyyy");
         LocalDate localDate = null;
         DateUtilites instance = new DateUtilites();
